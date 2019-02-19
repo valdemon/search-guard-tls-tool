@@ -19,13 +19,13 @@ defaults:
   reuseTransportCertificatesForHttp: false
 
 ca:
-  root:
-    dn: CN=root.ca.gsc.xceler8.io,OU=CA,O=gsc.xceler8.io,DC=gsc,DC=xceler8,DC=io
-    keysize: 2048
-    pkPassword: H@mB00rg
-    validityDays: 3650
-    file: root-ca.pem
-
+   root:
+      dn: CN=root.ca.example.com,OU=CA,O=Example Com\, Inc.,DC=example,DC=com
+      keysize: 2048
+      pkPassword: root-ca-password 
+      validityDays: 3650
+      file: root-ca.pem
+      
 nodes:
   nodes:
   - name: node1
